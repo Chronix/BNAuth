@@ -1,0 +1,7 @@
+/bin/
+/lib/
+/build/win32/int/
+/build/win32/ipch/
+*.sdf
+*.suo
+*.opensdf

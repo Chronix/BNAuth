@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNAuthC", "BNAuthC.vcxproj", "{242A7220-17E8-4C44-A15B-F31BF3442BD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNAuth", "BNAuth.vcxproj", "{519DC1DB-B11B-43A0-B7DB-2AEB2D6B611E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNAuthTier0", "BNAuthTier0.vcxproj", "{15A587A3-9639-4C73-9C4A-C4946471D5DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BNAuthTier1", "BNAuthTier1.vcxproj", "{C123EF40-3BFF-45E7-AFE3-39427F438CCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{38945348-ED56-4921-84E2-2D4E5684F822}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\include\BNAuth.h = ..\..\include\BNAuth.h
+		..\..\include\DllHacks.h = ..\..\include\DllHacks.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{242A7220-17E8-4C44-A15B-F31BF3442BD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{242A7220-17E8-4C44-A15B-F31BF3442BD0}.Debug|Win32.Build.0 = Debug|Win32
+		{242A7220-17E8-4C44-A15B-F31BF3442BD0}.Release|Win32.ActiveCfg = Release|Win32
+		{242A7220-17E8-4C44-A15B-F31BF3442BD0}.Release|Win32.Build.0 = Release|Win32
+		{519DC1DB-B11B-43A0-B7DB-2AEB2D6B611E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{519DC1DB-B11B-43A0-B7DB-2AEB2D6B611E}.Debug|Win32.Build.0 = Debug|Win32
+		{519DC1DB-B11B-43A0-B7DB-2AEB2D6B611E}.Release|Win32.ActiveCfg = Release|Win32
+		{519DC1DB-B11B-43A0-B7DB-2AEB2D6B611E}.Release|Win32.Build.0 = Release|Win32
+		{15A587A3-9639-4C73-9C4A-C4946471D5DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15A587A3-9639-4C73-9C4A-C4946471D5DC}.Debug|Win32.Build.0 = Debug|Win32
+		{15A587A3-9639-4C73-9C4A-C4946471D5DC}.Release|Win32.ActiveCfg = Release|Win32
+		{15A587A3-9639-4C73-9C4A-C4946471D5DC}.Release|Win32.Build.0 = Release|Win32
+		{C123EF40-3BFF-45E7-AFE3-39427F438CCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C123EF40-3BFF-45E7-AFE3-39427F438CCB}.Debug|Win32.Build.0 = Debug|Win32
+		{C123EF40-3BFF-45E7-AFE3-39427F438CCB}.Release|Win32.ActiveCfg = Release|Win32
+		{C123EF40-3BFF-45E7-AFE3-39427F438CCB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
